@@ -19,4 +19,8 @@ $ git pull
 
 $ git checkout
 
-git config advice.useCoreFSMonitorConfig false
+$ git config advice.useCoreFSMonitorConfig false
+
+$ git config --global --unset https.proxy
+
+$ git config --global --unset http.proxy
